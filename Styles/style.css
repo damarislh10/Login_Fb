@@ -15,16 +15,12 @@ footer {
 
 .container {
     margin: auto;
-
 }
 
 .container-fluid {
     height: 80%;
-    width: 80%;
-    /*las columnas ocupen 80% de body*/
+    width: 78%;
     margin: auto;
-    display: flex;
-    align-items: center;
 }
 
 .img {
@@ -35,16 +31,28 @@ footer {
 
 h3 {
     font-family: SFProDisplay-Regular, Helvetica, arial, sans-serif;
+    margin-top: 3%;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1.5fr;
-    gap: 0px 0px;
-    grid-template-areas:
-        ". .";
+    gap: 0px 20px;
     height: 100%;
+}
+
+.col-logo {
+    padding-top: 10%;
 }
 
 .container-form {
@@ -54,7 +62,7 @@ h3 {
 }
 
 .form-control {
-    padding: 5% 3%;
+    padding: 3% 3%;
 
 }
 
@@ -65,14 +73,14 @@ h3 {
 }
 
 .form_f {
-    padding-top: 3%;
+    padding-top: 1%;
     text-align: center;
 }
 
 input {
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
     border-radius: 5px;
-    padding: 3%;
+    padding: 2%;
     width: 90%;
     border: none;
     border: 1px solid #ced4da;
@@ -94,7 +102,7 @@ input {
 
 .container-password {
     padding-top: 6%;
-    padding-bottom: 6%;
+
 }
 
 #btn-env {
@@ -109,9 +117,12 @@ input {
     vertical-align: middle;
     border: 1px solid transparent;
     padding: 0.375rem 0.75rem;
-    font-size: 1rem;
     border-radius: 0.25rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#btn-env>b {
+    font-size: 20px;
 }
 
 #btn-env:hover {
@@ -133,19 +144,27 @@ button>b {
 
 #link {
     text-decoration: none;
+    font-size: 15px;
     font-weight: 500;
     color: #0d6efd;
 }
 
+#link:hover {
+    text-decoration: underline;
+}
+
 .line-part {
-    margin: 0 5%;
-    margin-bottom: 3%;
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
 }
 
 .btn-newaccount {
-    margin-top: 4%;
-    margin-bottom: 7%;
-    width: 45%;
+    margin-top: 1%;
+    margin-bottom: 6%;
+    width: 50%;
     background-color: #42b72a;
     border-color: #42b72a;
     display: inline-block;
@@ -157,21 +176,22 @@ button>b {
     user-select: none;
     border: 1px solid transparent;
     padding: 0.375rem 0.75rem;
-    font-size: 1rem;
     border-radius: 0.25rem;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .text-btn {
-    font-size: 16px;
+    font-size: 17px;
     color: #fff;
     cursor: pointer;
 }
 
 .text-per {
     font-size: 14px;
-    margin-top: 6%;
-    align-content: center;
+    padding-top: 6%;
+    width: 90%;
+    text-align: center;
+    margin: auto;
 }
 
 .btn-newaccount:hover {
