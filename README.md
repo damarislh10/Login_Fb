@@ -18,12 +18,6 @@
 
 Podras clonar y/o forkear el codigo de Login facebook haciendo uso del git clone o git fork, según sea el caso
 
-*********************
-
-### Corrar  App
-
-- podrás correr el proyecto hacer uso de `npm run start`
-
 **********************
 
 ### Autora ✒️
